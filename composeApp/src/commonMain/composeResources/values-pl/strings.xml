@@ -1,0 +1,182 @@
+<resources>
+
+    <string name="app_name">Sobo Crypto Center</string>
+    <string name="welcome_s">Witamy w %1$s</string>
+    <string name="welcome">Strona powitalna</string>
+
+    <string name="welcome_story_sobo_crypto_center">Witamy w aplikacji Sobo Crypto Center.
+        Służy ona do szyfrowania i odszyfrowywania tekstu z użyciem algorytmów AES-GCM (symetryczny),
+        Diffie-Hellman's (hybrydowy) oraz RSA-AES (hybrydowy).
+    </string>
+
+    <string name="app_name_sobo_crypto_center_desktop">Sobo Crypto Center</string>
+
+    <string name="app_name_android">Sobo Crypto Center</string>
+
+    <string name="home">Dom</string>
+    <string name="go_back">Cofnij</string>
+
+    <string name="update_settings">Zaktualizuj ustawienia</string>
+    <string name="settings_updated_ok">Pomyślna aktualizacja ustawień.</string>
+    <string name="settings_updated_ok_desc">Ustawienia zostały pomyślnie zaktualizowane.</string>
+    <string name="settings_updating_error">Błąd aktualizacji ustawień</string>
+
+    <string name="actions">Akcje</string>
+
+    <string name="s_about">%1$s - O programie</string>
+    <string name="s_help">%1$s - Pomoc</string>
+    <string name="s_settings">%1$s - Ustawienia</string>
+
+    <string name="about">Informacje</string>
+    <string name="about_s">Informacje o %1$s</string>
+    <string name="help">Pomoc</string>
+    <string name="help_s">Pomoc %1$s</string>
+    <string name="more_at_url_s">Więcej pod: %1$s</string>
+
+    <string name="settings">Ustawienia</string>
+    <string name="list">Lista</string>
+    <string name="edit">Edytuj</string>
+    <string name="delete">Usuń</string>
+
+    <string name="open_menu">Otwórz menu</string>
+    <string name="close_menu">Zamknij menu</string>
+    <string name="contact_info">Info. kontaktowe</string>
+    <string name="color_scheme">Kolory: %1$s</string>
+    <string name="color_scheme_dark">Kolory: CIEMNE</string>
+    <string name="color_scheme_light">Kolory: JASNE</string>
+    <string name="dark">CIEMNE</string>
+    <string name="light">JASNE</string>
+    <string name="total_items_n">Liczba pozycji: %1$d</string>
+    <string name="page_size">Rozmiar strony: </string>
+    <string name="back">WSTECZ</string>
+    <string name="forward">NAPRZÓD</string>
+    <string name="yes">TAK</string>
+    <string name="no">NIE</string>
+    <string name="ok">OK</string>
+    <string name="cancel">ANULUJ</string>
+
+    <string name="email">Email</string>
+
+    <!-- errors -->
+    <string name="error_occurred">Wystąpił błąd!</string>
+    <string name="error_unknown_error">Wystąpił nieznany błąd.</string>
+
+    <!-- crypto center -->
+    <string name="encrypt">Zaszyfruj</string>
+    <string name="decrypt">Odszyfruj</string>
+
+    <string name="language">
+        Język
+    </string>
+
+    <string name="use_device_language">
+        Używaj języka systemowego
+    </string>
+
+    <string name="plaintext">
+        Tekst jawny
+    </string>
+
+    <string name="plaintext_required">
+        Tekst jawny jest wymagany
+    </string>
+
+    <string name="secret_key_hex">
+        Tajny klucz szyfrujący
+    </string>
+
+    <string name="secret_key_hex_required">
+        Tajny klucz szyfrujący jest wymagany: można go wkleić (hex), wygenerować lub wyprowadzić z hasła.
+    </string>
+
+    <string name="cipher_text_hex">
+        Tekst zaszyfrowany (hex)
+    </string>
+
+    <string name="encryption_error_header">
+        BŁĄD SZYFROWANIA
+    </string>
+
+    <string name="decryption_error_header">
+        BŁĄD DESZYFROWANIA
+    </string>
+
+    <string name="copy_result_ciphertext">
+        Skopiuj treść zaszyfrowaną
+    </string>
+
+    <string name="copy_result_plaintext">
+        Skopiuj treść odszyfrowaną
+    </string>
+
+
+    <string name="get_secret_key">
+        UZYSKAJ KLUCZ SZYFRUJĄCY:
+    </string>
+
+    <string name="generate_random">
+        Wygeneruj losowy
+    </string>
+
+    <string name="from_password">
+        Z hasła
+    </string>
+
+    <string name="paste">
+        Wklej
+    </string>
+
+    <string name="paste_plaintext">
+        Wklej otwarty tekst ze schowka
+    </string>
+
+    <string name="paste_ciphertext">
+        Wklej treść zaszyfrowaną ze schowka
+    </string>
+
+    <string name="copy">
+        Skopiuj
+    </string>
+
+    <string name="clear_all">
+        Wyczyść wszystko
+    </string>
+
+    <string name="copy_hex_key">
+        Skopiuj klucz szyfrujący
+    </string>
+
+    <string name="paste_hex_key">
+        Wklej klucz szyfrujący ze schowka
+    </string>
+
+    <string name="cryptocenter_decryption">
+        Sobo Crypto Center - Deszyfrowanie
+    </string>
+
+    <string name="cryptocenter_encryption">
+        Sobo Crypto Center - Szyfrowanie
+    </string>
+
+    <!-- Diffie-Hellman's  -->
+    <string name="their_public_key_hex">Klucz publiczny drugiej strony</string>
+    <string name="their_public_key_hex_required">Klucz publiczny drugiej strony jest wymagany</string>
+
+    <string name="our_public_key_hex">Nasz klucz publiczny </string>
+    <string name="our_public_key_hex_required">Nasz klucz publiczny jest wymagany</string>
+
+    <string name="our_secret_key_hex">Nasz klucz prywatny </string>
+    <string name="our_secret_key_hex_required">Nasz klucz prywatny jest wymagany</string>
+
+    <string name="generate_key_pair">Wygeneruj parę kluczy</string>
+
+    <string name="paste_our_secret_key">Wklej nasz klucz prywatny</string>
+    <string name="paste_our_public_key">Wklej nasz klucz publiczny</string>
+
+    <string name="encrypt_dh">Szyfruj (Diffie-Hellman's)</string>
+    <string name="decrypt_dh">Deszyfruj (Diffie-Hellman's)</string>
+    <string name="dh_ops">Diffie-Hellman's</string>
+
+    <string name="cryptocenter_encryption_dh">Szyfrowanie (Diffie-Hellman's)</string>
+    <string name="cryptocenter_decryption_dh">Deszyfrowanie (Diffie-Hellman's)</string>
+</resources>

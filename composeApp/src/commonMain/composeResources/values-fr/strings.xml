@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">Sobo Crypto Center</string>
+    <string name="welcome_s">Bienvenue %1$s</string>
+    <string name="welcome">Page d'accueil</string>
+
+    <string name="welcome_story_sobo_crypto_center">
+        Bienvenue sur Sobo Crypto Center, une application facilitant le chiffrement et le déchiffrement de texte à l'aide des algorithmes AES-GCM (symétrique) et Diffie-Hellman (hybride).
+    </string>
+
+    <string name="app_name_sobo_crypto_center_desktop">Sobo Crypto Center</string>
+    <string name="app_name_android">Sobo Crypto Center</string>
+
+    <string name="home">Accueil</string>
+    <string name="go_back">Retour</string>
+    <string name="dashboard">Tableau de bord</string>
+
+    <string name="update_settings">Mettre à jour les paramètres</string>
+    <string name="settings_updated_ok">Paramètres mis à jour correctement</string>
+    <string name="settings_updated_ok_desc">Vos paramètres ont été mis à jour avec succès.</string>
+    <string name="settings_updating_error">Erreur de mise à jour des paramètres</string>
+
+    <string name="actions">Actions</string>
+
+    <string name="s_about">%1$s - À propos</string>
+    <string name="s_help">%1$s - Aide</string>
+    <string name="s_settings">%1$s - Paramètres</string>
+
+    <string name="about">À propos</string>
+    <string name="about_s">À propos de %1$s</string>
+    <string name="help">Aide</string>
+    <string name="help_s">Aide de %1$s</string>
+    <string name="more_at_url_s">Plus d'informations sur : %1$s</string>
+
+    <string name="settings">Paramètres</string>
+    <string name="list">Liste</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Supprimer</string>
+
+    <string name="open_menu">Ouvrir le menu</string>
+    <string name="close_menu">Fermer le menu</string>
+    <string name="contact_info">Coordonnées</string>
+    <string name="color_scheme">Couleur schéma : %1$s</string>
+    <string name="color_scheme_dark">Schéma de couleurs : FONCÉ</string>
+    <string name="color_scheme_light">Schéma de couleurs : CLAIR</string>
+    <string name="dark">FONCÉ</string>
+    <string name="light">CLAIR</string>
+    <string name="total_items_n">Nombre total d'éléments : %1$d</string>
+    <string name="page_size">Taille de la page : </string>
+    <string name="back">RETOUR</string>
+    <string name="forward">SUIVANT</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+    <string name="ok">OK</string>
+    <string name="cancel">ANNULER</string>
+
+    <string name="email">E-mail</string>
+
+    <!-- errors -->
+    <string name="error_occurred">Une erreur s'est produite !</string>
+    <string name="error_unknown_error">Une erreur inconnue s'est produite.</string>
+
+    <!-- crypto center -->
+    <string name="encrypt">Crypter</string>
+    <string name="decrypt">Décrypter</string>
+
+    <string name="language">
+        Langue
+    </string>
+
+    <string name="use_device_language">
+        Utiliser la langue du système (de l'appareil) ?
+    </string>
+
+    <string name="plaintext">
+        Texte en clair
+    </string>
+
+    <string name="plaintext_required">
+        Texte en clair requis.
+    </string>
+
+    <string name="secret_key_hex">
+        Clé secrète
+    </string>
+
+    <string name="secret_key_hex_required">
+        Clé secrète requise : collée (hex), générée ou dérivée du mot de passe.
+    </string>
+
+    <string name="cipher_text_hex">
+        Texte chiffré (hex)
+    </string>
+
+    <string name="encryption_error_header">
+        ERREUR DE CHIFFREMENT
+    </string>
+
+    <string name="decryption_error_header">
+        ERREUR DE DÉCHIFFREMENT
+    </string>
+
+    <string name="copy_result_ciphertext">
+        Copier le texte chiffré obtenu.
+    </string>
+
+    <string name="copy_result_plaintext">
+        Copier le résultat. Texte brut
+    </string>
+
+    <string name="get_secret_key">
+        OBTENIR LA CLÉ SECRÈTE :
+    </string>
+
+    <string name="generate_random">
+        Générer aléatoire
+    </string>
+
+    <string name="from_password">
+        À partir du mot de passe
+    </string>
+
+    <string name="paste">
+        Coller
+    </string>
+
+    <string name="paste_plaintext">
+        Coller le texte brut depuis le presse-papiers
+    </string>
+
+    <string name="paste_ciphertext">
+        Coller le texte chiffré hexadécimal depuis le presse-papiers
+    </string>
+
+    <string name="copy">
+        Copier
+    </string>
+
+    <string name="clear_all">
+        Tout effacer
+    </string>
+
+    <string name="copy_hex_key">
+        Copier la clé hexadécimale
+    </string>
+
+    <string name="paste_hex_key">
+        Coller la clé hexadécimale depuis le presse-papiers
+    </string>
+
+    <string name="cryptocenter_decryption">
+        Sobo Crypto Center - Décryptage
+    </string>
+
+    <string name="cryptocenter_encryption">
+        Sobo Crypto Center - Chiffrement
+    </string>
+
+    <!-- Diffie-Hellman's -->
+    <string name="their_public_key_hex">Leur clé publique</string>
+    <string name="their_public_key_hex_required">Leur clé publique est requise</string>
+
+    <string name="our_public_key_hex">Notre clé publique</string>
+    <string name="our_public_key_hex_required">Notre clé publique est requise</string>
+
+    <string name="our_secret_key_hex">Notre clé privée</string>
+    <string name="our_secret_key_hex_required">Notre clé privée est requise</string>
+
+    <string name="generate_key_pair">Générer une paire de clés</string>
+
+    <string name="paste_our_secret_key">Coller notre clé privée</string>
+    <string name="paste_our_public_key">Coller notre clé publique</string>
+
+    <string name="encrypt_dh">Crypter (Diffie-Hellman's)</string>
+    <string name="decrypt_dh">Décrypter (Diffie-Hellman's)</string>
+    <string name="dh_ops">Diffie-Hellman's</string>
+
+    <string name="cryptocenter_encryption_dh">Cryptage (Diffie-Hellman)</string>
+    <string name="cryptocenter_decryption_dh">Décryptage (Diffie-Hellman)</string>
+
+
+
+</resources>
